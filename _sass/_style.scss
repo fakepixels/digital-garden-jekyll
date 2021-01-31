@@ -4,21 +4,21 @@ $color-subtext: hsl(0, 0%, 30%);
 $color-border: hsl(0, 0%, 85%);
 $color-box-background: mix($color-primary, white, 4%);
 $border-radius: 4px;
-$font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+$font-family: 'IBM Plex Sans', sans-serif;
+
 
 body {
   box-sizing: content-box;
   font-family: $font-family;
-  margin: 0 auto;
-  line-height: 1.7;
+  margin: 1 auto;
+  line-height: 1.8;
   padding: 4vh 6vw;
   overflow-x: hidden;
   color: $color-text;
-  font-size: 1rem;
-  max-width: 63em;
+  font-size: 0.8rem;
+  max-width: 60em;
 
-  @media (min-width: 820px) {
+  @media (min-width: 680px) {
     font-size: 1.2rem;
   }
 }
